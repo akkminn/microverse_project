@@ -15,8 +15,10 @@
 
 #title-desc{
     font-weight: bold;
+    font-size: 20px;
 }
 #img-caption{
+    font-size: 20px;
     padding-top: 15px;
     text-align: center;
 }
@@ -41,5 +43,33 @@
     margin: 0 auto;
 }
 
+#tribute-info{
+    text-align: center;
+}
 
- 
+li{
+    line-height: 2;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+#desc p{
+    font-size: 20px;
+    text-align: center;
+    columns: #dcdcdc;
+}
+
+#details{
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    font-family: sans-serif;
+    margin: 25px 0;
+}
+
+@media screen and (min-width: 600px) {
+    #tribute-container {
+      width: 90%;
+    }
+  }
+
